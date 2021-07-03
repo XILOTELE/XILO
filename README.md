@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center">╭• 𝑿𝒊𝑳𝒐 𝑺𝑶𝑼𝑹𝑺𝑬 •╮</h1>
+<h1 align="center">╭• 𝑿𝒊𝑳𝒐 𝑺𝑶𝑼𝑹𝑪𝑬 •╮</h1>
 
 </div>
 
@@ -13,17 +13,21 @@
 -): https://t.me/XiLoSource
 
 
-## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥 𝐓𝐡𝐞 𝑺𝑶𝑼𝑹𝑺𝑬  
+## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥 𝐓𝐡𝐞 𝑺𝑶𝑼𝑹𝑪𝑬  
 
 𝐔𝐬𝐞 / `git clone https://github.com/XILOTELE/XILO && cd XILO && chmod +x install.sh && ./install.sh`
 
-## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥 𝐅𝐚𝐬𝐭 𝐓𝐨 𝑺𝑶𝑼𝑹𝑺𝑬  
+## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥 𝐅𝐚𝐬𝐭 𝐓𝐨 𝑺𝑶𝑼𝑹𝑪𝑬  
 
 𝐔𝐬𝐞 / `git clone https://github.com/XILOTELE/XILO && cd XILO && chmod +x Fastinstall.sh &&chmod +x install.sh && ./Fastinstall.sh`
 
 ## 𝐑𝐮𝐧 𝐓𝐡𝐞 𝐁𝐨𝐭  
 
 𝐔𝐬𝐞 / `./XILO/XL`
+
+## 𝐑𝐞𝐦𝐮𝐯𝐞 𝐅𝐢𝐥𝐞 𝐒𝐨𝐮𝐫𝐜𝐞
+
+𝐔𝐬𝐞 / `rm -fr XILO`
 
 ## 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝 𝐒𝐞𝐫𝐯𝐞𝐫 𝐒𝐲𝐬𝐭𝐞𝐦
 
