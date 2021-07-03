@@ -4,8 +4,8 @@ install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
 chmod +x XiLo
-chmod +x XILO
-./XILO
+chmod +x XL
+./XL
 }
 installall(){
 apt update

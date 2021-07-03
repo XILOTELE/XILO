@@ -16,7 +16,7 @@ local Create_Info = function(Token,Sudo)
 local Write_Info_Sudo = io.open("sudo.lua", 'w')
 Write_Info_Sudo:write([[
 
-s = "SISSQ"
+s = "ZZEZD"
 
 q = "XiLoSource"
 
@@ -46,7 +46,7 @@ end
 if not database:get(Server_Done.."UserSudo_Write") then
 print("\27[1;34mSend Your Id Sudo :\27[m")
 local Id = io.read():gsub(' ','') 
-if tostring(Id):match('%d+') then
+if tostriXL(Id):match('%d+') then
 data,res = https.request("https://black-source.tk/BlackTeAM/index.php?bn=info&id="..Id)
 if res == 200 then
 muaed = json:decode(data)
@@ -70,20 +70,20 @@ local t = json:decode(https.request('https://black-source.tk/BlackTeAM/index.php
 local RunBot = io.open("XiLo", 'w')
 RunBot:write([[
 #!/usr/bin/env bash
-cd $HOME/DEV-NAG
+cd $HOME/XILO
 token="]]..database:get(Server_Done.."Token_Write")..[["
 rm -fr XiLo.lua
-wget "https://raw.githubusercontent.com/DEV-NAG/DEV-NAG/main/XiLo.lua"
+wget "https://raw.githubusercontent.com/XILO/XILO/main/XiLo.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./XiLo.lua -p PROFILE --bot=$token
 done
 ]])
 RunBot:close()
-local RunTs = io.open("NG", 'w')
+local RunTs = io.open("XL", 'w')
 RunTs:write([[
 #!/usr/bin/env bash
-cd $HOME/DEV-NAG
+cd $HOME/XILO
 while(true) do
 rm -fr ../.telegram-cli
 screen -S XiLo -X kill
